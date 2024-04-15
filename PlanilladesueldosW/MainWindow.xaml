@@ -1,0 +1,35 @@
+﻿<Window x:Class="PlanilladesueldosW.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlanilladesueldosW"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <Grid Background="#FFC0ECD7">
+        <Label Content="PLANILLA DE SUELDOS" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" FontFamily="Times New Roman"/>
+        <Label Content="Horas de Trabajo" HorizontalAlignment="Left" Margin="86,85,0,0" VerticalAlignment="Top" FontFamily="Times New Roman"/>
+        <Label Content="Pago por Hora" HorizontalAlignment="Left" Margin="86,116,0,0" VerticalAlignment="Top" FontFamily="Times New Roman"/>
+        <Label Content="Pago por Semana" HorizontalAlignment="Left" Margin="86,158,0,0" VerticalAlignment="Top" FontFamily="Times New Roman"/>
+        <Label Content="Pago por Mes" HorizontalAlignment="Left" Margin="88,247,0,0" VerticalAlignment="Top" FontFamily="Times New Roman"/>
+        <Label Content="DESCUENTOS DE LEY" HorizontalAlignment="Left" Margin="250,282,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" RenderTransformOrigin="0.473,1.996"/>
+        <Label Content="Ingrese AFP" HorizontalAlignment="Left" Margin="86,317,0,0" VerticalAlignment="Top" FontFamily="Times New Roman"/>
+        <Label Content="IngreseEssalud" HorizontalAlignment="Left" Margin="312,320,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.682,3.381" FontFamily="Times New Roman"/>
+        <Label Content="Total a pagar" HorizontalAlignment="Center" Margin="0,346,0,0" VerticalAlignment="Top" FontFamily="Times New Roman"/>
+        <TextBox x:Name="Totalapagar" HorizontalAlignment="Center" Margin="0,384,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Horasdetrabajo" HorizontalAlignment="Center" Margin="0,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="Horasdetrabajo_TextChanged"/>
+        <TextBox x:Name="Pagoporhora" HorizontalAlignment="Center" Margin="0,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Pagoporsemana" HorizontalAlignment="Center" Margin="0,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Pagopormes" HorizontalAlignment="Center" Margin="0,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="AFP" HorizontalAlignment="Left" Margin="165,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ESSALUD" HorizontalAlignment="Left" Margin="400,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="L" Content="L" HorizontalAlignment="Left" Margin="95,208,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="M" Content="M" HorizontalAlignment="Left" Margin="132,208,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Mi" Content="Mi" HorizontalAlignment="Left" Margin="174,208,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="J" Content="J" HorizontalAlignment="Left" Margin="212,208,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="V" Content="V" HorizontalAlignment="Left" Margin="250,208,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.858,0.655"/>
+        <CheckBox x:Name="S" Content="S" HorizontalAlignment="Center" Margin="0,208,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="D" Content="D" HorizontalAlignment="Left" Margin="321,208,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
